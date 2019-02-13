@@ -1,0 +1,389 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"354 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\lib\doprnt.c
+[v _dpowers `Cui -> 0 `x s ]
+"39 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\include\stdarg.h
+[v ___va_start `(*v 0 ef ]
+[p i ___va_start ]
+"42 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\include\stdarg.h
+[v ___va_arg `(*v 0 ef1`*v ]
+[p i ___va_arg ]
+[; ;stdio.h: 12: typedef int ptrdiff_t;
+[; ;stdio.h: 13: typedef unsigned size_t;
+[; ;stdio.h: 14: typedef unsigned short wchar_t;
+[; ;stdarg.h: 36: typedef void * va_list[1];
+[; ;stdarg.h: 39: extern void * __va_start(void);
+[; ;stdarg.h: 42: extern void * __va_arg(void *);
+[; ;stdio.h: 27: extern int errno;
+[; ;stdio.h: 58: struct __prbuf
+[; ;stdio.h: 59: {
+[; ;stdio.h: 60: char * ptr;
+[; ;stdio.h: 61: void (* func)(char);
+[; ;stdio.h: 62: };
+[; ;conio.h: 17: extern int errno;
+[; ;conio.h: 20: extern void init_uart(void);
+[; ;conio.h: 22: extern char getch(void);
+[; ;conio.h: 23: extern char getche(void);
+[; ;conio.h: 24: extern void putch(char);
+[; ;conio.h: 25: extern void ungetch(char);
+[; ;conio.h: 27: extern bit kbhit(void);
+[; ;conio.h: 31: extern char * cgets(char *);
+[; ;conio.h: 32: extern void cputs(const char *);
+[; ;stdio.h: 103: extern int cprintf(char *, ...);
+[; ;stdio.h: 108: extern int _doprnt(struct __prbuf *, const register char *, register va_list);
+[; ;stdio.h: 195: extern char * gets(char *);
+[; ;stdio.h: 196: extern int puts(const char *);
+[; ;stdio.h: 197: extern int scanf(const char *, ...);
+[; ;stdio.h: 198: extern int sscanf(const char *, const char *, ...);
+[; ;stdio.h: 199: extern int vprintf(const char *, va_list);
+[; ;stdio.h: 200: extern int vsprintf(char *, const char *, va_list);
+[; ;stdio.h: 201: extern int vscanf(const char *, va_list ap);
+[; ;stdio.h: 202: extern int vsscanf(const char *, const char *, va_list);
+[; ;stdio.h: 206: extern int sprintf(char *, const char *, ...);
+[; ;stdio.h: 207: extern int printf(const char *, ...);
+[; ;ctype.h: 3: extern bit isalpha(char);
+[; ;ctype.h: 4: extern bit isupper(char);
+[; ;ctype.h: 5: extern bit islower(char);
+[; ;ctype.h: 6: extern bit isdigit(char);
+[; ;ctype.h: 7: extern bit isxdigit(char);
+[; ;ctype.h: 8: extern bit isspace(char);
+[; ;ctype.h: 9: extern bit ispunct(char);
+[; ;ctype.h: 10: extern bit isalnum(char);
+[; ;ctype.h: 11: extern bit isprint(char);
+[; ;ctype.h: 12: extern bit isgraph(char);
+[; ;ctype.h: 13: extern bit iscntrl(char);
+[; ;ctype.h: 15: extern char toupper(char);
+[; ;ctype.h: 16: extern char tolower(char);
+[; ;stdlib.h: 27: typedef struct {
+[; ;stdlib.h: 28: int rem;
+[; ;stdlib.h: 29: int quot;
+[; ;stdlib.h: 30: } div_t;
+[; ;stdlib.h: 31: typedef struct {
+[; ;stdlib.h: 32: unsigned rem;
+[; ;stdlib.h: 33: unsigned quot;
+[; ;stdlib.h: 34: } udiv_t;
+[; ;stdlib.h: 35: typedef struct {
+[; ;stdlib.h: 36: long quot;
+[; ;stdlib.h: 37: long rem;
+[; ;stdlib.h: 38: } ldiv_t;
+[; ;stdlib.h: 39: typedef struct {
+[; ;stdlib.h: 40: unsigned long quot;
+[; ;stdlib.h: 41: unsigned long rem;
+[; ;stdlib.h: 42: } uldiv_t;
+[; ;stdlib.h: 65: extern double atof(const char *);
+[; ;stdlib.h: 66: extern double strtod(const char *, const char **);
+[; ;stdlib.h: 67: extern int atoi(const char *);
+[; ;stdlib.h: 68: extern unsigned xtoi(const char *);
+[; ;stdlib.h: 69: extern long atol(const char *);
+[; ;stdlib.h: 70: extern long strtol(const char *, char **, int);
+[; ;stdlib.h: 72: extern int rand(void);
+[; ;stdlib.h: 73: extern void srand(unsigned int);
+[; ;stdlib.h: 74: extern void * calloc(size_t, size_t);
+[; ;stdlib.h: 75: extern div_t div(int numer, int denom);
+[; ;stdlib.h: 76: extern udiv_t udiv(unsigned numer, unsigned denom);
+[; ;stdlib.h: 77: extern ldiv_t ldiv(long numer, long denom);
+[; ;stdlib.h: 78: extern uldiv_t uldiv(unsigned long numer,unsigned long denom);
+[; ;stdlib.h: 79: extern unsigned long _lrotl(unsigned long value, unsigned int shift);
+[; ;stdlib.h: 80: extern unsigned long _lrotr(unsigned long value, unsigned int shift);
+[; ;stdlib.h: 81: extern unsigned int _rotl(unsigned int value, unsigned int shift);
+[; ;stdlib.h: 82: extern unsigned int _rotr(unsigned int value, unsigned int shift);
+[; ;stdlib.h: 106: extern void * malloc(size_t);
+[; ;stdlib.h: 107: extern void free(void *);
+[; ;stdlib.h: 108: extern void * realloc(void *, size_t);
+[; ;stdlib.h: 122: extern void abort(void);
+[; ;stdlib.h: 123: extern void exit(int);
+[; ;stdlib.h: 124: extern int atexit(void (*)(void));
+[; ;stdlib.h: 125: extern char * getenv(const char *);
+[; ;stdlib.h: 126: extern char ** environ;
+[; ;stdlib.h: 127: extern int system(char *);
+[; ;stdlib.h: 128: extern void qsort(void *, size_t, size_t, int (*)(const void *, const void *));
+[; ;stdlib.h: 129: extern void * bsearch(const void *, void *, size_t, size_t, int(*)(const void *, const void *));
+[; ;stdlib.h: 130: extern int abs(int);
+[; ;stdlib.h: 131: extern long labs(long);
+[; ;stdlib.h: 145: extern char * itoa(char * buf, int val, int base);
+[; ;stdlib.h: 146: extern char * utoa(char * buf, unsigned val, int base);
+[; ;stdlib.h: 147: extern char * ltoa(char * buf, long val, int base);
+[; ;stdlib.h: 148: extern char * ultoa(char * buf, unsigned long val, int base);
+[; ;string.h: 28: extern void * memcpy(void *, const void *, size_t);
+[; ;string.h: 29: extern void * memmove(void *, const void *, size_t);
+[; ;string.h: 30: extern void * memset(void *, int, size_t);
+[; ;string.h: 41: extern char * strcat(char *, const char *);
+[; ;string.h: 42: extern char * strcpy(char *, const char *);
+[; ;string.h: 43: extern char * strncat(char *, const char *, size_t);
+[; ;string.h: 44: extern char * strncpy(char *, const char *, size_t);
+[; ;string.h: 45: extern char * strdup(const char *);
+[; ;string.h: 46: extern char * strtok(char *, const char *);
+[; ;string.h: 49: extern int memcmp(const void *, const void *, size_t);
+[; ;string.h: 50: extern int strcmp(const char *, const char *);
+[; ;string.h: 51: extern int stricmp(const char *, const char *);
+[; ;string.h: 52: extern int strncmp(const char *, const char *, size_t);
+[; ;string.h: 53: extern int strnicmp(const char *, const char *, size_t);
+[; ;string.h: 54: extern  void * memchr(const void *, int, size_t);
+[; ;string.h: 55: extern size_t strcspn(const char *, const char *);
+[; ;string.h: 56: extern  char * strpbrk(const char *, const char *);
+[; ;string.h: 57: extern size_t strspn(const char *, const char *);
+[; ;string.h: 58: extern  char * strstr(const char *, const char *);
+[; ;string.h: 59: extern  char * stristr(const char *, const char *);
+[; ;string.h: 60: extern char * strerror(int);
+[; ;string.h: 61: extern size_t strlen(const char *);
+[; ;string.h: 62: extern  char * strchr(const char *, int);
+[; ;string.h: 63: extern  char * strichr(const char *, int);
+[; ;string.h: 64: extern  char * strrchr(const char *, int);
+[; ;string.h: 65: extern  char * strrichr(const char *, int);
+[; ;conio.h: 17: extern int errno;
+[; ;conio.h: 20: extern void init_uart(void);
+[; ;conio.h: 22: extern char getch(void);
+[; ;conio.h: 23: extern char getche(void);
+[; ;conio.h: 24: extern void putch(char);
+[; ;conio.h: 25: extern void ungetch(char);
+[; ;conio.h: 27: extern bit kbhit(void);
+[; ;conio.h: 31: extern char * cgets(char *);
+[; ;conio.h: 32: extern void cputs(const char *);
+[; ;sys.h: 17: extern int errno;
+[; ;sys.h: 30: extern int execl(char *, char *, ...);
+[; ;sys.h: 31: extern int execv(char *, char **);
+[; ;sys.h: 32: extern int execve(char *, char **, char **);
+[; ;sys.h: 33: extern int execle(char *, char *, ...);
+[; ;sys.h: 34: extern int execvp(char *, char **);
+[; ;sys.h: 35: extern int execlp(char *, char *, ...);
+[; ;sys.h: 36: extern int getpid(void);
+[; ;sys.h: 37: extern char * mktemp(char *);
+[; ;sys.h: 51: extern int spawnl(char *, char *, ...);
+[; ;sys.h: 52: extern int spawnv(char *, char **);
+[; ;sys.h: 53: extern int spawnle(char *, char *, ...);
+[; ;sys.h: 54: extern int spawnve(char *, char **, char **);
+[; ;sys.h: 55: extern int spawnlp(char *, char *, ...);
+[; ;sys.h: 56: extern int spawnvp(char *, char **);
+[; ;sys.h: 58: extern int chdir(char *);
+[; ;sys.h: 59: extern int chdrv(char *);
+[; ;sys.h: 60: extern int mkdir(char *);
+[; ;sys.h: 61: extern int rmdir(char *);
+[; ;sys.h: 62: extern char * getcwd(char *);
+[; ;sys.h: 63: extern void persist_validate(void);
+[; ;sys.h: 64: extern int persist_check(int);
+[; ;sys.h: 65: extern char * getdrv(void);
+[; ;sys.h: 66: extern char ** _getargs(char *, char *);
+[; ;sys.h: 67: extern int _argc_;
+[; ;sys.h: 78: extern void * sbrk(size_t);
+[; ;sys.h: 79: extern void brk(void *);
+[; ;sys.h: 85: extern int _pnum(unsigned long, signed char, signed char, unsigned char, unsigned char, struct __prbuf *, unsigned char);
+[; ;sys.h: 86: extern int _fnum(double, short, short, short, struct __prbuf *, short);
+[; ;math.h: 1: extern double fabs(double);
+[; ;math.h: 2: extern double floor(double);
+[; ;math.h: 3: extern double ceil(double);
+[; ;math.h: 4: extern double modf(double, double *);
+[; ;math.h: 5: extern double sqrt(double);
+[; ;math.h: 6: extern double atof(const char *);
+[; ;math.h: 7: extern double sin(double);
+[; ;math.h: 8: extern double cos(double);
+[; ;math.h: 9: extern double tan(double);
+[; ;math.h: 10: extern double asin(double);
+[; ;math.h: 11: extern double acos(double);
+[; ;math.h: 12: extern double atan(double);
+[; ;math.h: 13: extern double atan2(double, double);
+[; ;math.h: 14: extern double log(double);
+[; ;math.h: 15: extern double log10(double);
+[; ;math.h: 16: extern double pow(double, double);
+[; ;math.h: 17: extern double exp(double);
+[; ;math.h: 18: extern double sinh(double);
+[; ;math.h: 19: extern double cosh(double);
+[; ;math.h: 20: extern double tanh(double);
+[; ;math.h: 21: extern double eval_poly(double, const double *, int);
+[; ;math.h: 22: extern double frexp(double, int *);
+[; ;math.h: 23: extern double ldexp(double, int);
+[; ;math.h: 24: extern double fmod(double, double);
+[; ;math.h: 25: extern double trunc(double);
+[; ;math.h: 26: extern double round(double);
+"13 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\lib\doprnt.c
+[p n 350 ]
+[i _dpowers
+:U ..
+"354
+-> -> 1 `i `ui
+-> -> 10 `i `ui
+-> -> 100 `i `ui
+-> -> 1000 `i `ui
+-> -> 10000 `i `ui
+..
+]
+[; ;doprnt.c: 354: const static unsigned int dpowers[] = {1, 10, 100, 1000, 10000,
+[; ;doprnt.c: 359: };
+"492
+[v _sprintf `(i 1 e1v`*uc`*Cuc ]
+{
+[; ;doprnt.c: 455: int
+[; ;doprnt.c: 491: sprintf(char * sp, const char * f, ...)
+[; ;doprnt.c: 492: {
+[e :U _sprintf ]
+[v _sp `*uc 1 r1 ]
+[v _f `*Cuc 1 r0 ]
+[f ]
+"493
+[v _ap `*v -> -> 1 `i `ux a ]
+"498
+[v _c `c 1 a ]
+"505
+[v _prec `c 1 a ]
+"507
+[v _flag `uc 1 a ]
+"532
+[s S7 `*Cuc 1 `ui 1 ]
+[n S7 . _cp _len ]
+[u S6 `ui 1 `S7 1 ]
+[n S6 . _val _str ]
+[v __val `S6 1 a ]
+[; ;doprnt.c: 493: va_list ap;
+[; ;doprnt.c: 498: signed char c;
+[; ;doprnt.c: 505: signed char prec;
+[; ;doprnt.c: 507: unsigned char flag;
+[; ;doprnt.c: 526: union {
+[; ;doprnt.c: 527: unsigned int _val;
+[; ;doprnt.c: 528: struct {
+[; ;doprnt.c: 529: const char * _cp;
+[; ;doprnt.c: 530: unsigned _len;
+[; ;doprnt.c: 531: } _str;
+[; ;doprnt.c: 532: } _val;
+[; ;doprnt.c: 541: *ap = __va_start();
+"541
+[e = *U &U _ap ( ___va_start ..  ]
+[; ;doprnt.c: 544: while(c = *f++) {
+"544
+[e $U 9  ]
+[e :U 10 ]
+{
+[; ;doprnt.c: 546: if(c != '%')
+"546
+[e $ ! != -> -> _c `i `ui -> 37 `ui 12  ]
+[; ;doprnt.c: 548: {
+"548
+{
+[; ;doprnt.c: 549: ((*sp++ = (c)));
+"549
+[e = *U ++ _sp * -> -> 1 `i `x -> -> # *U _sp `i `x -> _c `uc ]
+[; ;doprnt.c: 550: continue;
+"550
+[e $U 9  ]
+"551
+}
+[e :U 12 ]
+[; ;doprnt.c: 551: }
+[; ;doprnt.c: 556: flag = 0;
+"556
+[e = _flag -> -> 0 `i `uc ]
+[; ;doprnt.c: 642: switch(c = *f++) {
+"642
+[e $U 14  ]
+{
+[; ;doprnt.c: 644: case 0:
+"644
+[e :U 15 ]
+[; ;doprnt.c: 645: goto alldone;
+"645
+[e $U 16  ]
+[; ;doprnt.c: 809: default:
+"809
+[e :U 17 ]
+[; ;doprnt.c: 820: continue;
+"820
+[e $U 9  ]
+[; ;doprnt.c: 824: case 'u':
+"824
+[e :U 18 ]
+[; ;doprnt.c: 825: flag |= 0xC0;
+"825
+[e =| _flag -> -> 192 `i `uc ]
+[; ;doprnt.c: 826: break;
+"826
+[e $U 13  ]
+"829
+}
+[; ;doprnt.c: 829: }
+[e $U 13  ]
+"642
+[e :U 14 ]
+[e [\ = _c -> *U ++ _f * -> -> 1 `i `x -> -> # *U _f `i `x `c , $ -> -> 0 `i `c 15
+ , $ -> -> 117 `ui `c 18
+ 17 ]
+"829
+[e :U 13 ]
+[; ;doprnt.c: 1267: {
+"1267
+{
+[; ;doprnt.c: 1280: _val._val = (*(unsigned *)__va_arg((*(unsigned **)ap)));
+"1280
+[e = . __val 0 *U -> ( ___va_arg (1 -> *U -> &U _ap `**ui `*v `*ui ]
+"1281
+}
+[; ;doprnt.c: 1281: }
+[; ;doprnt.c: 1299: for(c = 1 ; c != sizeof dpowers/sizeof dpowers[0] ; c++)
+"1299
+{
+[e = _c -> -> 1 `i `c ]
+[e $ != -> -> _c `i `ui / -> # _dpowers `ui -> # *U + &U _dpowers * -> -> -> 0 `i `ui `ux -> -> # *U &U _dpowers `ui `ux `ui 19  ]
+[e $U 20  ]
+"1300
+[e :U 19 ]
+[; ;doprnt.c: 1300: if(_val._val < dpowers[c])
+[e $ ! < . __val 0 *U + &U _dpowers * -> -> _c `uc `ux -> -> # *U &U _dpowers `ui `ux 22  ]
+[; ;doprnt.c: 1301: break;
+"1301
+[e $U 20  ]
+[e :U 22 ]
+"1299
+[e ++ _c -> -> 1 `i `c ]
+[e $ != -> -> _c `i `ui / -> # _dpowers `ui -> # *U + &U _dpowers * -> -> -> 0 `i `ui `ux -> -> # *U &U _dpowers `ui `ux `ui 19  ]
+[e :U 20 ]
+"1416
+}
+[; ;doprnt.c: 1416: {
+{
+"1463
+}
+[; ;doprnt.c: 1463: }
+[; ;doprnt.c: 1466: prec = c;
+"1466
+[e = _prec _c ]
+[; ;doprnt.c: 1468: while(prec--) {
+"1468
+[e $U 23  ]
+[e :U 24 ]
+{
+[; ;doprnt.c: 1472: {
+"1472
+{
+[; ;doprnt.c: 1483: c = (_val._val / dpowers[prec]) % 10 + '0';
+"1483
+[e = _c -> + % / . __val 0 *U + &U _dpowers * -> -> _prec `uc `ux -> -> # *U &U _dpowers `ui `ux -> -> 10 `i `ui -> 48 `ui `c ]
+"1514
+}
+[; ;doprnt.c: 1514: }
+[; ;doprnt.c: 1515: ((*sp++ = (c)));
+"1515
+[e = *U ++ _sp * -> -> 1 `i `x -> -> # *U _sp `i `x -> _c `uc ]
+"1516
+}
+[e :U 23 ]
+"1468
+[e $ != -> -- _prec -> -> 1 `i `c `i -> -> -> 0 `i `c `i 24  ]
+[e :U 25 ]
+"1524
+}
+[e :U 9 ]
+"544
+[e $ != -> = _c -> *U ++ _f * -> -> 1 `i `x -> -> # *U _f `i `x `c `i -> -> -> 0 `i `c `i 10  ]
+[e :U 11 ]
+[; ;doprnt.c: 1516: }
+[; ;doprnt.c: 1524: }
+[; ;doprnt.c: 1526: alldone:
+"1526
+[e :U 16 ]
+[; ;doprnt.c: 1529: *sp = 0;
+"1529
+[e = *U _sp -> -> 0 `i `uc ]
+[; ;doprnt.c: 1531: return 0;
+"1531
+[e ) -> 0 `i ]
+[e $UE 8  ]
+[; ;doprnt.c: 1532: }
+"1532
+[e :UE 8 ]
+}

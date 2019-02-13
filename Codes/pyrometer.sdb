@@ -1,0 +1,1382 @@
+[p AUTOSTATIC LFSROK SPACEOPT EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F65K90 ]
+"2 C:\Users\deepesh\Desktop\Final codes\uart2.h
+[s S37 . 1 `Vuc 1 RBIF 1 0 :1:0 
+`Vuc 1 INT0IF 1 0 :1:1 
+`Vuc 1 TMR0IF 1 0 :1:2 
+`Vuc 1 RBIE 1 0 :1:3 
+`Vuc 1 INT0IE 1 0 :1:4 
+`Vuc 1 TMR0IE 1 0 :1:5 
+`Vuc 1 PEIE_GIEL 1 0 :1:6 
+`Vuc 1 GIE_GIEH 1 0 :1:7 
+]
+[s S46 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 INT0F 1 0 :1:1 
+`Vuc 1 T0IF 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 INT0E 1 0 :1:4 
+`Vuc 1 T0IE 1 0 :1:5 
+`Vuc 1 PEIE 1 0 :1:6 
+`Vuc 1 GIE 1 0 :1:7 
+]
+[s S55 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 GIEL 1 0 :1:6 
+`Vuc 1 GIEH 1 0 :1:7 
+]
+[s S64 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 . 1 0 :1:7 
+]
+[s S73 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 . 1 0 :1:7 
+]
+[u S82 . 1 `S37 1 . 1 0 `S46 1 . 1 0 `S55 1 . 1 0 `S64 1 . 1 0 `S64 1 . 1 0 ]
+"5361 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\include\pic18f65k90.h
+[s S89 . 1 `Vuc 1 RC0 1 0 :1:0 
+`Vuc 1 RC1 1 0 :1:1 
+`Vuc 1 RC2 1 0 :1:2 
+`Vuc 1 RC3 1 0 :1:3 
+`Vuc 1 RC4 1 0 :1:4 
+`Vuc 1 RC5 1 0 :1:5 
+`Vuc 1 RC6 1 0 :1:6 
+`Vuc 1 RC7 1 0 :1:7 
+]
+[s S98 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 SEG32 1 0 :1:1 
+`Vuc 1 SEG13 1 0 :1:2 
+`Vuc 1 SEG17 1 0 :1:3 
+`Vuc 1 SEG16 1 0 :1:4 
+`Vuc 1 SEG12 1 0 :1:5 
+`Vuc 1 SEG27 1 0 :1:6 
+`Vuc 1 SEG28 1 0 :1:7 
+]
+[s S107 . 1 `Vuc 1 SOSCO 1 0 :1:0 
+`Vuc 1 SOSCI 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 SCK1 1 0 :1:3 
+`Vuc 1 SDI1 1 0 :1:4 
+`Vuc 1 SDO1 1 0 :1:5 
+`Vuc 1 TX1 1 0 :1:6 
+`Vuc 1 RX1 1 0 :1:7 
+]
+[s S116 . 1 `Vuc 1 SCKLI 1 0 :1:0 
+`Vuc 1 CCP2 1 0 :1:1 
+`Vuc 1 CCP1 1 0 :1:2 
+`Vuc 1 SCL1 1 0 :1:3 
+`Vuc 1 SDA1 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 CK1 1 0 :1:6 
+`Vuc 1 DT1 1 0 :1:7 
+]
+[s S125 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 PA2 1 0 :1:1 
+`Vuc 1 PA1 1 0 :1:2 
+]
+[u S129 . 1 `S89 1 . 1 0 `S98 1 . 1 0 `S107 1 . 1 0 `S116 1 . 1 0 `S125 1 . 1 0 ]
+[s S169 . 1 `Vuc 1 TX9D 1 0 :1:0 
+`Vuc 1 TRMT 1 0 :1:1 
+`Vuc 1 BRGH 1 0 :1:2 
+`Vuc 1 SENDB 1 0 :1:3 
+`Vuc 1 SYNC 1 0 :1:4 
+`Vuc 1 TXEN 1 0 :1:5 
+`Vuc 1 TX9 1 0 :1:6 
+`Vuc 1 CSRC 1 0 :1:7 
+]
+[s S178 . 1 `Vuc 1 TXD8 1 0 :1:0 
+`Vuc 1 . 1 0 :5:1 
+`Vuc 1 TX8_9 1 0 :1:6 
+]
+[s S182 . 1 `Vuc 1 . 1 0 :6:0 
+`Vuc 1 nTX8 1 0 :1:6 
+]
+[s S185 . 1 `Vuc 1 TX9D1 1 0 :1:0 
+`Vuc 1 TRMT1 1 0 :1:1 
+`Vuc 1 BRGH1 1 0 :1:2 
+`Vuc 1 SENDB1 1 0 :1:3 
+`Vuc 1 SYNC1 1 0 :1:4 
+`Vuc 1 TXEN1 1 0 :1:5 
+`Vuc 1 TX91 1 0 :1:6 
+`Vuc 1 CSRC1 1 0 :1:7 
+]
+[u S194 . 1 `S169 1 . 1 0 `S178 1 . 1 0 `S182 1 . 1 0 `S185 1 . 1 0 ]
+"4186
+[s S201 . 1 `Vuc 1 ABDEN 1 0 :1:0 
+`Vuc 1 WUE 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 BRG16 1 0 :1:3 
+`Vuc 1 TXCKP 1 0 :1:4 
+`Vuc 1 RXDTP 1 0 :1:5 
+`Vuc 1 RCIDL 1 0 :1:6 
+`Vuc 1 ABDOVF 1 0 :1:7 
+]
+[u S210 . 1 `S201 1 . 1 0 ]
+"4196
+[s S214 . 1 `Vuc 1 TRISC0 1 0 :1:0 
+`Vuc 1 TRISC1 1 0 :1:1 
+`Vuc 1 TRISC2 1 0 :1:2 
+`Vuc 1 TRISC3 1 0 :1:3 
+`Vuc 1 TRISC4 1 0 :1:4 
+`Vuc 1 TRISC5 1 0 :1:5 
+`Vuc 1 TRISC6 1 0 :1:6 
+`Vuc 1 TRISC7 1 0 :1:7 
+]
+[u S223 . 1 `S214 1 . 1 0 ]
+"3562
+[s S226 . 1 `Vuc 1 RX9D 1 0 :1:0 
+`Vuc 1 OERR 1 0 :1:1 
+`Vuc 1 FERR 1 0 :1:2 
+`Vuc 1 ADDEN 1 0 :1:3 
+`Vuc 1 CREN 1 0 :1:4 
+`Vuc 1 SREN 1 0 :1:5 
+`Vuc 1 RX9 1 0 :1:6 
+`Vuc 1 SPEN 1 0 :1:7 
+]
+[s S235 . 1 `Vuc 1 RCD8 1 0 :1:0 
+`Vuc 1 . 1 0 :2:1 
+`Vuc 1 ADEN 1 0 :1:3 
+`Vuc 1 . 1 0 :2:4 
+`Vuc 1 RC9 1 0 :1:6 
+]
+[s S241 . 1 `Vuc 1 . 1 0 :6:0 
+`Vuc 1 nRC8 1 0 :1:6 
+]
+[s S244 . 1 `Vuc 1 . 1 0 :6:0 
+`Vuc 1 RC8_9 1 0 :1:6 
+]
+[s S247 . 1 `Vuc 1 RX9D1 1 0 :1:0 
+`Vuc 1 OERR1 1 0 :1:1 
+`Vuc 1 FERR1 1 0 :1:2 
+`Vuc 1 ADDEN1 1 0 :1:3 
+`Vuc 1 CREN1 1 0 :1:4 
+`Vuc 1 SREN1 1 0 :1:5 
+`Vuc 1 RX91 1 0 :1:6 
+`Vuc 1 SPEN1 1 0 :1:7 
+]
+[u S256 . 1 `S226 1 . 1 0 `S235 1 . 1 0 `S241 1 . 1 0 `S244 1 . 1 0 `S247 1 . 1 0 ]
+"1325
+[s S313 . 1 `Vuc 1 TRISA0 1 0 :1:0 
+`Vuc 1 TRISA1 1 0 :1:1 
+`Vuc 1 TRISA2 1 0 :1:2 
+`Vuc 1 TRISA3 1 0 :1:3 
+`Vuc 1 TRISA4 1 0 :1:4 
+`Vuc 1 TRISA5 1 0 :1:5 
+`Vuc 1 TRISA6 1 0 :1:6 
+`Vuc 1 TRISA7 1 0 :1:7 
+]
+[u S322 . 1 `S313 1 . 1 0 ]
+"3514
+[s S325 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 TRISF1 1 0 :1:1 
+`Vuc 1 TRISF2 1 0 :1:2 
+`Vuc 1 TRISF3 1 0 :1:3 
+`Vuc 1 TRISF4 1 0 :1:4 
+`Vuc 1 TRISF5 1 0 :1:5 
+`Vuc 1 TRISF6 1 0 :1:6 
+`Vuc 1 TRISF7 1 0 :1:7 
+]
+[u S334 . 1 `S325 1 . 1 0 ]
+"3633
+[s S337 . 1 `Vuc 1 RG0 1 0 :1:0 
+`Vuc 1 RG1 1 0 :1:1 
+`Vuc 1 RG2 1 0 :1:2 
+`Vuc 1 RG3 1 0 :1:3 
+`Vuc 1 RG4 1 0 :1:4 
+`Vuc 1 RG5 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 . 1 0 :1:7 
+]
+[s S346 . 1 `Vuc 1 CCP3 1 0 :1:0 
+`Vuc 1 C3OUT 1 0 :1:1 
+`Vuc 1 C3INA 1 0 :1:2 
+`Vuc 1 C3INB 1 0 :1:3 
+`Vuc 1 C3INC 1 0 :1:4 
+]
+[s S352 . 1 `Vuc 1 PA3 1 0 :1:0 
+`Vuc 1 TX2 1 0 :1:1 
+`Vuc 1 RX2 1 0 :1:2 
+`Vuc 1 PD3 1 0 :1:3 
+`Vuc 1 PD1 1 0 :1:4 
+]
+[s S358 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 AN19 1 0 :1:1 
+`Vuc 1 AN18 1 0 :1:2 
+`Vuc 1 AN17 1 0 :1:3 
+`Vuc 1 AN16 1 0 :1:4 
+]
+[s S364 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 CK2 1 0 :1:1 
+`Vuc 1 DT2 1 0 :1:2 
+`Vuc 1 CCP4 1 0 :1:3 
+`Vuc 1 CCP5 1 0 :1:4 
+]
+[s S370 . 1 `Vuc 1 . 1 0 :4:0 
+`Vuc 1 SEG26 1 0 :1:4 
+]
+[s S373 . 1 `Vuc 1 . 1 0 :4:0 
+`Vuc 1 T7CKI 1 0 :1:4 
+]
+[s S376 . 1 `Vuc 1 . 1 0 :4:0 
+`Vuc 1 T5G 1 0 :1:4 
+]
+[s S379 . 1 `Vuc 1 . 1 0 :4:0 
+`Vuc 1 RTCC 1 0 :1:4 
+]
+[u S382 . 1 `S337 1 . 1 0 `S346 1 . 1 0 `S352 1 . 1 0 `S358 1 . 1 0 `S364 1 . 1 0 `S370 1 . 1 0 `S373 1 . 1 0 `S376 1 . 1 0 `S379 1 . 1 0 ]
+"11 C:\Users\deepesh\Desktop\Final codes\def.h
+[s S394 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 RF1 1 0 :1:1 
+`Vuc 1 RF2 1 0 :1:2 
+`Vuc 1 RF3 1 0 :1:3 
+`Vuc 1 RF4 1 0 :1:4 
+`Vuc 1 RF5 1 0 :1:5 
+`Vuc 1 RF6 1 0 :1:6 
+`Vuc 1 RF7 1 0 :1:7 
+]
+[s S403 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 AN6 1 0 :1:1 
+`Vuc 1 AN7 1 0 :1:2 
+`Vuc 1 AN8 1 0 :1:3 
+`Vuc 1 AN9 1 0 :1:4 
+`Vuc 1 AN10 1 0 :1:5 
+`Vuc 1 AN11 1 0 :1:6 
+`Vuc 1 AN5 1 0 :1:7 
+]
+[s S412 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 SEG19 1 0 :1:1 
+`Vuc 1 SEG20 1 0 :1:2 
+`Vuc 1 SEG21 1 0 :1:3 
+`Vuc 1 SEG22 1 0 :1:4 
+`Vuc 1 SEG23 1 0 :1:5 
+`Vuc 1 SEG24 1 0 :1:6 
+`Vuc 1 SEG25 1 0 :1:7 
+]
+[s S421 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 C2OUT 1 0 :1:1 
+`Vuc 1 C1OUT 1 0 :1:2 
+`Vuc 1 C2INB 1 0 :1:3 
+`Vuc 1 C2INA 1 0 :1:4 
+`Vuc 1 C1INB 1 0 :1:5 
+`Vuc 1 C1INA 1 0 :1:6 
+`Vuc 1 SS1 1 0 :1:7 
+]
+[s S430 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 CTDIN 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 CTMUI 1 0 :1:3 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 CVREF 1 0 :1:5 
+]
+[u S437 . 1 `S394 1 . 1 0 `S403 1 . 1 0 `S412 1 . 1 0 `S421 1 . 1 0 `S430 1 . 1 0 ]
+"1 C:\Users\deepesh\Desktop\Final codes\uart.h
+[s S449 . 1 `Vuc 1 RA0 1 0 :1:0 
+`Vuc 1 RA1 1 0 :1:1 
+`Vuc 1 RA2 1 0 :1:2 
+`Vuc 1 RA3 1 0 :1:3 
+`Vuc 1 RA4 1 0 :1:4 
+`Vuc 1 RA5 1 0 :1:5 
+`Vuc 1 RA6 1 0 :1:6 
+`Vuc 1 RA7 1 0 :1:7 
+]
+[s S458 . 1 `Vuc 1 AN0 1 0 :1:0 
+`Vuc 1 AN1 1 0 :1:1 
+`Vuc 1 AN2 1 0 :1:2 
+`Vuc 1 AN3 1 0 :1:3 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 AN4 1 0 :1:5 
+`Vuc 1 OSC2 1 0 :1:6 
+`Vuc 1 OSC1 1 0 :1:7 
+]
+[s S467 . 1 `Vuc 1 ULPWUIN 1 0 :1:0 
+`Vuc 1 SEG18 1 0 :1:1 
+`Vuc 1 VREF_MINUS 1 0 :1:2 
+`Vuc 1 VREF_PLUS 1 0 :1:3 
+`Vuc 1 SEG14 1 0 :1:4 
+`Vuc 1 SEG15 1 0 :1:5 
+`Vuc 1 CLKO 1 0 :1:6 
+`Vuc 1 CLKI 1 0 :1:7 
+]
+[s S476 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 T0CKI 1 0 :1:4 
+`Vuc 1 T1CKI 1 0 :1:5 
+]
+[s S483 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :2:3 
+`Vuc 1 T3G 1 0 :1:5 
+]
+[s S489 . 1 `Vuc 1 . 1 0 :5:0 
+`Vuc 1 LVDIN 1 0 :1:5 
+]
+[u S492 . 1 `S449 1 . 1 0 `S458 1 . 1 0 `S467 1 . 1 0 `S476 1 . 1 0 `S483 1 . 1 0 `S489 1 . 1 0 ]
+[s S508 . 1 `Vuc 1 RA0 1 0 :1:0 
+`Vuc 1 RA1 1 0 :1:1 
+`Vuc 1 RA2 1 0 :1:2 
+`Vuc 1 RA3 1 0 :1:3 
+`Vuc 1 RA4 1 0 :1:4 
+`Vuc 1 RA5 1 0 :1:5 
+`Vuc 1 RA6 1 0 :1:6 
+`Vuc 1 RA7 1 0 :1:7 
+]
+[s S517 . 1 `Vuc 1 AN0 1 0 :1:0 
+`Vuc 1 AN1 1 0 :1:1 
+`Vuc 1 AN2 1 0 :1:2 
+`Vuc 1 AN3 1 0 :1:3 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 AN4 1 0 :1:5 
+`Vuc 1 OSC2 1 0 :1:6 
+`Vuc 1 OSC1 1 0 :1:7 
+]
+[s S526 . 1 `Vuc 1 ULPWUIN 1 0 :1:0 
+`Vuc 1 SEG18 1 0 :1:1 
+`Vuc 1 VREF_MINUS 1 0 :1:2 
+`Vuc 1 VREF_PLUS 1 0 :1:3 
+`Vuc 1 SEG14 1 0 :1:4 
+`Vuc 1 SEG15 1 0 :1:5 
+`Vuc 1 CLKO 1 0 :1:6 
+`Vuc 1 CLKI 1 0 :1:7 
+]
+[s S535 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 T0CKI 1 0 :1:4 
+`Vuc 1 T1CKI 1 0 :1:5 
+]
+[s S542 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :2:3 
+`Vuc 1 T3G 1 0 :1:5 
+]
+[s S548 . 1 `Vuc 1 . 1 0 :5:0 
+`Vuc 1 LVDIN 1 0 :1:5 
+]
+[u S551 . 1 `S449 1 . 1 0 `S458 1 . 1 0 `S467 1 . 1 0 `S476 1 . 1 0 `S483 1 . 1 0 `S489 1 . 1 0 ]
+[s S564 . 1 `Vuc 1 LMUX 1 0 :2:0 
+`Vuc 1 CS 1 0 :2:2 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 WERR 1 0 :1:5 
+`Vuc 1 SLPEN 1 0 :1:6 
+`Vuc 1 LCDEN 1 0 :1:7 
+]
+[s S571 . 1 `Vuc 1 LMUX0 1 0 :1:0 
+`Vuc 1 LMUX1 1 0 :1:1 
+`Vuc 1 CS0 1 0 :1:2 
+`Vuc 1 CS1 1 0 :1:3 
+]
+[u S576 . 1 `S564 1 . 1 0 `S571 1 . 1 0 ]
+"357 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\include\pic18f65k90.h
+[s S580 . 1 `Vuc 1 LP 1 0 :4:0 
+`Vuc 1 WA 1 0 :1:4 
+`Vuc 1 LCDA 1 0 :1:5 
+`Vuc 1 BIASMD 1 0 :1:6 
+`Vuc 1 WFT 1 0 :1:7 
+]
+[s S586 . 1 `Vuc 1 LP0 1 0 :1:0 
+`Vuc 1 LP1 1 0 :1:1 
+`Vuc 1 LP2 1 0 :1:2 
+`Vuc 1 LP3 1 0 :1:3 
+]
+[u S591 . 1 `S580 1 . 1 0 `S586 1 . 1 0 ]
+"9 C:\Users\deepesh\Desktop\Final codes\Ds18B20.c
+[s S637 . 1 `Vuc 1 TRISG0 1 0 :1:0 
+`Vuc 1 TRISG1 1 0 :1:1 
+`Vuc 1 TRISG2 1 0 :1:2 
+`Vuc 1 TRISG3 1 0 :1:3 
+`Vuc 1 TRISG4 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 . 1 0 :1:7 
+]
+[u S646 . 1 `S637 1 . 1 0 ]
+"3654 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\include\pic18f65k90.h
+[s S649 . 1 `Vuc 1 RG0 1 0 :1:0 
+`Vuc 1 RG1 1 0 :1:1 
+`Vuc 1 RG2 1 0 :1:2 
+`Vuc 1 RG3 1 0 :1:3 
+`Vuc 1 RG4 1 0 :1:4 
+`Vuc 1 RG5 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 . 1 0 :1:7 
+]
+[s S658 . 1 `Vuc 1 CCP3 1 0 :1:0 
+`Vuc 1 C3OUT 1 0 :1:1 
+`Vuc 1 C3INA 1 0 :1:2 
+`Vuc 1 C3INB 1 0 :1:3 
+`Vuc 1 C3INC 1 0 :1:4 
+]
+[s S664 . 1 `Vuc 1 PA3 1 0 :1:0 
+`Vuc 1 TX2 1 0 :1:1 
+`Vuc 1 RX2 1 0 :1:2 
+`Vuc 1 PD3 1 0 :1:3 
+`Vuc 1 PD1 1 0 :1:4 
+]
+[s S670 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 AN19 1 0 :1:1 
+`Vuc 1 AN18 1 0 :1:2 
+`Vuc 1 AN17 1 0 :1:3 
+`Vuc 1 AN16 1 0 :1:4 
+]
+[s S676 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 CK2 1 0 :1:1 
+`Vuc 1 DT2 1 0 :1:2 
+`Vuc 1 CCP4 1 0 :1:3 
+`Vuc 1 CCP5 1 0 :1:4 
+]
+[s S682 . 1 `Vuc 1 . 1 0 :4:0 
+`Vuc 1 SEG26 1 0 :1:4 
+]
+[s S685 . 1 `Vuc 1 . 1 0 :4:0 
+`Vuc 1 T7CKI 1 0 :1:4 
+]
+[s S688 . 1 `Vuc 1 . 1 0 :4:0 
+`Vuc 1 T5G 1 0 :1:4 
+]
+[s S691 . 1 `Vuc 1 . 1 0 :4:0 
+`Vuc 1 RTCC 1 0 :1:4 
+]
+[u S694 . 1 `S337 1 . 1 0 `S346 1 . 1 0 `S352 1 . 1 0 `S358 1 . 1 0 `S364 1 . 1 0 `S370 1 . 1 0 `S373 1 . 1 0 `S376 1 . 1 0 `S379 1 . 1 0 ]
+"16 C:\Users\deepesh\Desktop\Final codes\def.h
+[s S708 . 1 `Vuc 1 RBIF 1 0 :1:0 
+`Vuc 1 INT0IF 1 0 :1:1 
+`Vuc 1 TMR0IF 1 0 :1:2 
+`Vuc 1 RBIE 1 0 :1:3 
+`Vuc 1 INT0IE 1 0 :1:4 
+`Vuc 1 TMR0IE 1 0 :1:5 
+`Vuc 1 PEIE_GIEL 1 0 :1:6 
+`Vuc 1 GIE_GIEH 1 0 :1:7 
+]
+[s S717 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 INT0F 1 0 :1:1 
+`Vuc 1 T0IF 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 INT0E 1 0 :1:4 
+`Vuc 1 T0IE 1 0 :1:5 
+`Vuc 1 PEIE 1 0 :1:6 
+`Vuc 1 GIE 1 0 :1:7 
+]
+[s S726 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 GIEL 1 0 :1:6 
+`Vuc 1 GIEH 1 0 :1:7 
+]
+[s S735 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 . 1 0 :1:7 
+]
+[s S744 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 . 1 0 :1:7 
+]
+[u S753 . 1 `S37 1 . 1 0 `S46 1 . 1 0 `S55 1 . 1 0 `S64 1 . 1 0 `S64 1 . 1 0 ]
+[s S804 . 1 `Vuc 1 TRISD0 1 0 :1:0 
+`Vuc 1 TRISD1 1 0 :1:1 
+`Vuc 1 TRISD2 1 0 :1:2 
+`Vuc 1 TRISD3 1 0 :1:3 
+`Vuc 1 TRISD4 1 0 :1:4 
+`Vuc 1 TRISD5 1 0 :1:5 
+`Vuc 1 TRISD6 1 0 :1:6 
+`Vuc 1 TRISD7 1 0 :1:7 
+]
+[u S813 . 1 `S804 1 . 1 0 ]
+"619 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\include\pic18f65k90.h
+[s S819 . 1 `Vuc 1 TMR3GIE 1 0 :1:0 
+`Vuc 1 TMR3IE 1 0 :1:1 
+`Vuc 1 HLVDIE 1 0 :1:2 
+`Vuc 1 BCL1IE 1 0 :1:3 
+`Vuc 1 BCL2IE 1 0 :1:4 
+`Vuc 1 SSP2IE 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 OSCFIE 1 0 :1:7 
+]
+[s S828 . 1 `Vuc 1 . 1 0 :2:0 
+`Vuc 1 LVDIE 1 0 :1:2 
+`Vuc 1 BCLIE 1 0 :1:3 
+]
+[u S832 . 1 `S819 1 . 1 0 `S828 1 . 1 0 ]
+"3834
+[s S836 . 1 `Vuc 1 SSPM 1 0 :4:0 
+`Vuc 1 CKP 1 0 :1:4 
+`Vuc 1 SSPEN 1 0 :1:5 
+`Vuc 1 SSPOV 1 0 :1:6 
+`Vuc 1 WCOL 1 0 :1:7 
+]
+[s S842 . 1 `Vuc 1 SSPM0 1 0 :1:0 
+`Vuc 1 SSPM1 1 0 :1:1 
+`Vuc 1 SSPM2 1 0 :1:2 
+`Vuc 1 SSPM3 1 0 :1:3 
+]
+[u S847 . 1 `S836 1 . 1 0 `S842 1 . 1 0 ]
+"37 C:\Users\deepesh\Desktop\Final codes\def.h
+[s S854 . 1 `Vuc 1 SEN 1 0 :1:0 
+`Vuc 1 RSEN 1 0 :1:1 
+`Vuc 1 PEN 1 0 :1:2 
+`Vuc 1 RCEN 1 0 :1:3 
+`Vuc 1 ACKEN 1 0 :1:4 
+`Vuc 1 ACKDT 1 0 :1:5 
+`Vuc 1 ACKSTAT 1 0 :1:6 
+`Vuc 1 GCEN 1 0 :1:7 
+]
+[s S863 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 ADMSK1 1 0 :1:1 
+`Vuc 1 ADMSK2 1 0 :1:2 
+`Vuc 1 ADMSK3 1 0 :1:3 
+`Vuc 1 ADMSK4 1 0 :1:4 
+`Vuc 1 ADMSK5 1 0 :1:5 
+]
+[u S870 . 1 `S854 1 . 1 0 `S863 1 . 1 0 ]
+"48
+[s S886 . 1 `Vuc 1 TX9D 1 0 :1:0 
+`Vuc 1 TRMT 1 0 :1:1 
+`Vuc 1 BRGH 1 0 :1:2 
+`Vuc 1 SENDB 1 0 :1:3 
+`Vuc 1 SYNC 1 0 :1:4 
+`Vuc 1 TXEN 1 0 :1:5 
+`Vuc 1 TX9 1 0 :1:6 
+`Vuc 1 CSRC 1 0 :1:7 
+]
+[s S895 . 1 `Vuc 1 TXD8 1 0 :1:0 
+`Vuc 1 . 1 0 :5:1 
+`Vuc 1 TX8_9 1 0 :1:6 
+]
+[s S899 . 1 `Vuc 1 . 1 0 :6:0 
+`Vuc 1 nTX8 1 0 :1:6 
+]
+[s S902 . 1 `Vuc 1 TX9D1 1 0 :1:0 
+`Vuc 1 TRMT1 1 0 :1:1 
+`Vuc 1 BRGH1 1 0 :1:2 
+`Vuc 1 SENDB1 1 0 :1:3 
+`Vuc 1 SYNC1 1 0 :1:4 
+`Vuc 1 TXEN1 1 0 :1:5 
+`Vuc 1 TX91 1 0 :1:6 
+`Vuc 1 CSRC1 1 0 :1:7 
+]
+[u S911 . 1 `S169 1 . 1 0 `S178 1 . 1 0 `S182 1 . 1 0 `S185 1 . 1 0 ]
+[s S931 . 1 `Vuc 1 TMR3GIE 1 0 :1:0 
+`Vuc 1 TMR3IE 1 0 :1:1 
+`Vuc 1 HLVDIE 1 0 :1:2 
+`Vuc 1 BCL1IE 1 0 :1:3 
+`Vuc 1 BCL2IE 1 0 :1:4 
+`Vuc 1 SSP2IE 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 OSCFIE 1 0 :1:7 
+]
+[s S940 . 1 `Vuc 1 . 1 0 :2:0 
+`Vuc 1 LVDIE 1 0 :1:2 
+`Vuc 1 BCLIE 1 0 :1:3 
+]
+[u S944 . 1 `S819 1 . 1 0 `S828 1 . 1 0 ]
+"3834 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\include\pic18f65k90.h
+[s S948 . 1 `Vuc 1 TMR3GIF 1 0 :1:0 
+`Vuc 1 TMR3IF 1 0 :1:1 
+`Vuc 1 HLVDIF 1 0 :1:2 
+`Vuc 1 BCL1IF 1 0 :1:3 
+`Vuc 1 BCL2IF 1 0 :1:4 
+`Vuc 1 SSP2IF 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 OSCFIF 1 0 :1:7 
+]
+[s S957 . 1 `Vuc 1 . 1 0 :2:0 
+`Vuc 1 LVDIF 1 0 :1:2 
+`Vuc 1 BCLIF 1 0 :1:3 
+]
+[u S961 . 1 `S948 1 . 1 0 `S957 1 . 1 0 ]
+"3864
+[s S965 . 1 `Vuc 1 TX9D 1 0 :1:0 
+`Vuc 1 TRMT 1 0 :1:1 
+`Vuc 1 BRGH 1 0 :1:2 
+`Vuc 1 SENDB 1 0 :1:3 
+`Vuc 1 SYNC 1 0 :1:4 
+`Vuc 1 TXEN 1 0 :1:5 
+`Vuc 1 TX9 1 0 :1:6 
+`Vuc 1 CSRC 1 0 :1:7 
+]
+[s S974 . 1 `Vuc 1 TXD8 1 0 :1:0 
+`Vuc 1 . 1 0 :5:1 
+`Vuc 1 TX8_9 1 0 :1:6 
+]
+[s S978 . 1 `Vuc 1 . 1 0 :6:0 
+`Vuc 1 nTX8 1 0 :1:6 
+]
+[s S981 . 1 `Vuc 1 TX9D1 1 0 :1:0 
+`Vuc 1 TRMT1 1 0 :1:1 
+`Vuc 1 BRGH1 1 0 :1:2 
+`Vuc 1 SENDB1 1 0 :1:3 
+`Vuc 1 SYNC1 1 0 :1:4 
+`Vuc 1 TXEN1 1 0 :1:5 
+`Vuc 1 TX91 1 0 :1:6 
+`Vuc 1 CSRC1 1 0 :1:7 
+]
+[u S990 . 1 `S169 1 . 1 0 `S178 1 . 1 0 `S182 1 . 1 0 `S185 1 . 1 0 ]
+"4183
+[s S996 . 1 `Vuc 1 SEN 1 0 :1:0 
+`Vuc 1 RSEN 1 0 :1:1 
+`Vuc 1 PEN 1 0 :1:2 
+`Vuc 1 RCEN 1 0 :1:3 
+`Vuc 1 ACKEN 1 0 :1:4 
+`Vuc 1 ACKDT 1 0 :1:5 
+`Vuc 1 ACKSTAT 1 0 :1:6 
+`Vuc 1 GCEN 1 0 :1:7 
+]
+[s S1005 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 ADMSK1 1 0 :1:1 
+`Vuc 1 ADMSK2 1 0 :1:2 
+`Vuc 1 ADMSK3 1 0 :1:3 
+`Vuc 1 ADMSK4 1 0 :1:4 
+`Vuc 1 ADMSK5 1 0 :1:5 
+]
+[u S1012 . 1 `S854 1 . 1 0 `S863 1 . 1 0 ]
+"32 C:\Users\deepesh\Desktop\Final codes\I2CISR.c
+[v F5628 `(v  1 t 0 ]
+[s S1026 . 1 `Vuc 1 RBIF 1 0 :1:0 
+`Vuc 1 INT0IF 1 0 :1:1 
+`Vuc 1 TMR0IF 1 0 :1:2 
+`Vuc 1 RBIE 1 0 :1:3 
+`Vuc 1 INT0IE 1 0 :1:4 
+`Vuc 1 TMR0IE 1 0 :1:5 
+`Vuc 1 PEIE_GIEL 1 0 :1:6 
+`Vuc 1 GIE_GIEH 1 0 :1:7 
+]
+[s S1035 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 INT0F 1 0 :1:1 
+`Vuc 1 T0IF 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 INT0E 1 0 :1:4 
+`Vuc 1 T0IE 1 0 :1:5 
+`Vuc 1 PEIE 1 0 :1:6 
+`Vuc 1 GIE 1 0 :1:7 
+]
+[s S1044 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 GIEL 1 0 :1:6 
+`Vuc 1 GIEH 1 0 :1:7 
+]
+[s S1053 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 . 1 0 :1:7 
+]
+[s S1062 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 . 1 0 :1:7 
+]
+[u S1071 . 1 `S37 1 . 1 0 `S46 1 . 1 0 `S55 1 . 1 0 `S64 1 . 1 0 `S64 1 . 1 0 ]
+"5361 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\include\pic18f65k90.h
+[s S1078 . 1 `Vuc 1 T0PS 1 0 :3:0 
+`Vuc 1 PSA 1 0 :1:3 
+`Vuc 1 T0SE 1 0 :1:4 
+`Vuc 1 T0CS 1 0 :1:5 
+`Vuc 1 T08BIT 1 0 :1:6 
+`Vuc 1 TMR0ON 1 0 :1:7 
+]
+[s S1085 . 1 `Vuc 1 T0PS0 1 0 :1:0 
+`Vuc 1 T0PS1 1 0 :1:1 
+`Vuc 1 T0PS2 1 0 :1:2 
+]
+[u S1089 . 1 `S1078 1 . 1 0 `S1085 1 . 1 0 ]
+"5063
+[s S1095 . 1 `Vuc 1 RA0 1 0 :1:0 
+`Vuc 1 RA1 1 0 :1:1 
+`Vuc 1 RA2 1 0 :1:2 
+`Vuc 1 RA3 1 0 :1:3 
+`Vuc 1 RA4 1 0 :1:4 
+`Vuc 1 RA5 1 0 :1:5 
+`Vuc 1 RA6 1 0 :1:6 
+`Vuc 1 RA7 1 0 :1:7 
+]
+[s S1104 . 1 `Vuc 1 AN0 1 0 :1:0 
+`Vuc 1 AN1 1 0 :1:1 
+`Vuc 1 AN2 1 0 :1:2 
+`Vuc 1 AN3 1 0 :1:3 
+`Vuc 1 . 1 0 :1:4 
+`Vuc 1 AN4 1 0 :1:5 
+`Vuc 1 OSC2 1 0 :1:6 
+`Vuc 1 OSC1 1 0 :1:7 
+]
+[s S1113 . 1 `Vuc 1 ULPWUIN 1 0 :1:0 
+`Vuc 1 SEG18 1 0 :1:1 
+`Vuc 1 VREF_MINUS 1 0 :1:2 
+`Vuc 1 VREF_PLUS 1 0 :1:3 
+`Vuc 1 SEG14 1 0 :1:4 
+`Vuc 1 SEG15 1 0 :1:5 
+`Vuc 1 CLKO 1 0 :1:6 
+`Vuc 1 CLKI 1 0 :1:7 
+]
+[s S1122 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :1:3 
+`Vuc 1 T0CKI 1 0 :1:4 
+`Vuc 1 T1CKI 1 0 :1:5 
+]
+[s S1129 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 . 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 . 1 0 :2:3 
+`Vuc 1 T3G 1 0 :1:5 
+]
+[s S1135 . 1 `Vuc 1 . 1 0 :5:0 
+`Vuc 1 LVDIN 1 0 :1:5 
+]
+[u S1138 . 1 `S449 1 . 1 0 `S458 1 . 1 0 `S467 1 . 1 0 `S476 1 . 1 0 `S483 1 . 1 0 `S489 1 . 1 0 ]
+[s S1151 . 1 `Vuc 1 TX9D 1 0 :1:0 
+`Vuc 1 TRMT 1 0 :1:1 
+`Vuc 1 BRGH 1 0 :1:2 
+`Vuc 1 SENDB 1 0 :1:3 
+`Vuc 1 SYNC 1 0 :1:4 
+`Vuc 1 TXEN 1 0 :1:5 
+`Vuc 1 TX9 1 0 :1:6 
+`Vuc 1 CSRC 1 0 :1:7 
+]
+[s S1160 . 1 `Vuc 1 TX9D2 1 0 :1:0 
+`Vuc 1 TRMT2 1 0 :1:1 
+`Vuc 1 BRGH2 1 0 :1:2 
+`Vuc 1 SENDB2 1 0 :1:3 
+`Vuc 1 SYNC2 1 0 :1:4 
+`Vuc 1 TXEN2 1 0 :1:5 
+`Vuc 1 TX92 1 0 :1:6 
+`Vuc 1 CSRC2 1 0 :1:7 
+]
+[u S1169 . 1 `S169 1 . 1 0 `S1160 1 . 1 0 ]
+"1162
+[s S1174 . 1 `Vuc 1 TRISG0 1 0 :1:0 
+`Vuc 1 TRISG1 1 0 :1:1 
+`Vuc 1 TRISG2 1 0 :1:2 
+`Vuc 1 TRISG3 1 0 :1:3 
+`Vuc 1 TRISG4 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 . 1 0 :1:7 
+]
+[u S1183 . 1 `S637 1 . 1 0 ]
+"3654
+[s S1186 . 1 `Vuc 1 RG0 1 0 :1:0 
+`Vuc 1 RG1 1 0 :1:1 
+`Vuc 1 RG2 1 0 :1:2 
+`Vuc 1 RG3 1 0 :1:3 
+`Vuc 1 RG4 1 0 :1:4 
+`Vuc 1 RG5 1 0 :1:5 
+`Vuc 1 . 1 0 :1:6 
+`Vuc 1 . 1 0 :1:7 
+]
+[s S1195 . 1 `Vuc 1 CCP3 1 0 :1:0 
+`Vuc 1 C3OUT 1 0 :1:1 
+`Vuc 1 C3INA 1 0 :1:2 
+`Vuc 1 C3INB 1 0 :1:3 
+`Vuc 1 C3INC 1 0 :1:4 
+]
+[s S1201 . 1 `Vuc 1 PA3 1 0 :1:0 
+`Vuc 1 TX2 1 0 :1:1 
+`Vuc 1 RX2 1 0 :1:2 
+`Vuc 1 PD3 1 0 :1:3 
+`Vuc 1 PD1 1 0 :1:4 
+]
+[s S1207 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 AN19 1 0 :1:1 
+`Vuc 1 AN18 1 0 :1:2 
+`Vuc 1 AN17 1 0 :1:3 
+`Vuc 1 AN16 1 0 :1:4 
+]
+[s S1213 . 1 `Vuc 1 . 1 0 :1:0 
+`Vuc 1 CK2 1 0 :1:1 
+`Vuc 1 DT2 1 0 :1:2 
+`Vuc 1 CCP4 1 0 :1:3 
+`Vuc 1 CCP5 1 0 :1:4 
+]
+[s S1219 . 1 `Vuc 1 . 1 0 :4:0 
+`Vuc 1 SEG26 1 0 :1:4 
+]
+[s S1222 . 1 `Vuc 1 . 1 0 :4:0 
+`Vuc 1 T7CKI 1 0 :1:4 
+]
+[s S1225 . 1 `Vuc 1 . 1 0 :4:0 
+`Vuc 1 T5G 1 0 :1:4 
+]
+[s S1228 . 1 `Vuc 1 . 1 0 :4:0 
+`Vuc 1 RTCC 1 0 :1:4 
+]
+[u S1231 . 1 `S337 1 . 1 0 `S346 1 . 1 0 `S352 1 . 1 0 `S358 1 . 1 0 `S364 1 . 1 0 `S370 1 . 1 0 `S373 1 . 1 0 `S376 1 . 1 0 `S379 1 . 1 0 ]
+"3328
+[s S1242 . 1 `Vuc 1 ABDEN 1 0 :1:0 
+`Vuc 1 WUE 1 0 :1:1 
+`Vuc 1 . 1 0 :1:2 
+`Vuc 1 BRG16 1 0 :1:3 
+`Vuc 1 TXCKP 1 0 :1:4 
+`Vuc 1 RXDTP 1 0 :1:5 
+`Vuc 1 RCIDL 1 0 :1:6 
+`Vuc 1 ABDOVF 1 0 :1:7 
+]
+[u S1251 . 1 `S201 1 . 1 0 ]
+"1170
+[s S1255 . 1 `Vuc 1 RX9D 1 0 :1:0 
+`Vuc 1 OERR 1 0 :1:1 
+`Vuc 1 FERR 1 0 :1:2 
+`Vuc 1 ADDEN 1 0 :1:3 
+`Vuc 1 CREN 1 0 :1:4 
+`Vuc 1 SREN 1 0 :1:5 
+`Vuc 1 RX9 1 0 :1:6 
+`Vuc 1 SPEN 1 0 :1:7 
+]
+[s S1264 . 1 `Vuc 1 RX9D2 1 0 :1:0 
+`Vuc 1 OERR2 1 0 :1:1 
+`Vuc 1 FERR2 1 0 :1:2 
+`Vuc 1 ADDEN2 1 0 :1:3 
+`Vuc 1 CREN2 1 0 :1:4 
+`Vuc 1 SREN2 1 0 :1:5 
+`Vuc 1 RX92 1 0 :1:6 
+`Vuc 1 SPEN2 1 0 :1:7 
+]
+[u S1273 . 1 `S226 1 . 1 0 `S1264 1 . 1 0 ]
+"1 C:\Users\deepesh\Desktop\Final codes\uart.h
+[s S1280 . 1 `Vuc 1 TX9D 1 0 :1:0 
+`Vuc 1 TRMT 1 0 :1:1 
+`Vuc 1 BRGH 1 0 :1:2 
+`Vuc 1 SENDB 1 0 :1:3 
+`Vuc 1 SYNC 1 0 :1:4 
+`Vuc 1 TXEN 1 0 :1:5 
+`Vuc 1 TX9 1 0 :1:6 
+`Vuc 1 CSRC 1 0 :1:7 
+]
+[s S1289 . 1 `Vuc 1 TXD8 1 0 :1:0 
+`Vuc 1 . 1 0 :5:1 
+`Vuc 1 TX8_9 1 0 :1:6 
+]
+[s S1293 . 1 `Vuc 1 . 1 0 :6:0 
+`Vuc 1 nTX8 1 0 :1:6 
+]
+[s S1296 . 1 `Vuc 1 TX9D1 1 0 :1:0 
+`Vuc 1 TRMT1 1 0 :1:1 
+`Vuc 1 BRGH1 1 0 :1:2 
+`Vuc 1 SENDB1 1 0 :1:3 
+`Vuc 1 SYNC1 1 0 :1:4 
+`Vuc 1 TXEN1 1 0 :1:5 
+`Vuc 1 TX91 1 0 :1:6 
+`Vuc 1 CSRC1 1 0 :1:7 
+]
+[u S1305 . 1 `S169 1 . 1 0 `S178 1 . 1 0 `S182 1 . 1 0 `S185 1 . 1 0 ]
+"532 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\lib\doprnt.c
+[s S1332 . 5 `*.MDCuc 1 _cp 3 0 `ui 1 _len 2 3 ]
+[u S1335 . 5 `ui 1 _val 2 0 `S1332 1 _str 5 0 ]
+"7 C:\Users\deepesh\Desktop\Final codes\spi.c
+[v _txbyte `uc  1 a 1 prodl ]
+"47 C:\Users\deepesh\Desktop\Final codes\uart2.c
+[v _data `uc  1 a 1 fsr2l ]
+"492 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\lib\doprnt.c
+[v _sp `*.auc  1 a 1 fsr1l ]
+[v _sp `*.auc  1 a 1 fsr1l ]
+"7 C:\Users\deepesh\Desktop\Final codes\uart.c
+[v _buffer `*.ac  1 a 1 fsr2l ]
+"117 C:\Users\deepesh\Desktop\Final codes\lcd.c
+[v _str `*.ac  1 a 1 fsr2l ]
+[v _str `*.ac  1 a 1 fsr2l ]
+"127
+[v _str `*.ac  1 a 1 fsr2l ]
+[v _str `*.ac  1 a 1 fsr2l ]
+[v _str `*.ac  1 a 1 fsr2l ]
+"117
+[v _str `*.ac  1 a 1 fsr2l ]
+"492 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\lib\doprnt.c
+[v _sp `*.auc  1 a 1 fsr1l ]
+"47 C:\Users\deepesh\Desktop\Final codes\uart2.c
+[v _data `uc  1 a 1 fsr2l ]
+"7 C:\Users\deepesh\Desktop\Final codes\uart.c
+[v _buffer `*.ac  1 a 1 fsr2l ]
+"7 C:\Users\deepesh\Desktop\Final codes\spi.c
+[v _txbyte `uc  1 a 1 prodl ]
+"492 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\lib\doprnt.c
+[v _sp `*.auc  1 a 1 fsr1l ]
+"47 C:\Users\deepesh\Desktop\Final codes\uart2.c
+[v _data `uc  1 a 1 fsr2l ]
+"7 C:\Users\deepesh\Desktop\Final codes\uart.c
+[v _buffer `*.ac  1 a 1 fsr2l ]
+[v _buffer `*.ac  1 a 1 fsr2l ]
+"127 C:\Users\deepesh\Desktop\Final codes\lcd.c
+[v _str `*.ac  1 a 1 fsr2l ]
+"117
+[v _str `*.ac  1 a 1 fsr2l ]
+"492 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\lib\doprnt.c
+[v _sp `*.auc  1 a 1 fsr1l ]
+"47 C:\Users\deepesh\Desktop\Final codes\uart2.c
+[v _data `uc  1 a 1 fsr2l ]
+"7 C:\Users\deepesh\Desktop\Final codes\uart.c
+[v _buffer `*.ac  1 a 1 fsr2l ]
+"7 C:\Users\deepesh\Desktop\Final codes\spi.c
+[v _txbyte `uc  1 a 1 prodl ]
+[v _txbyte `uc  1 a 1 prodl ]
+"127 C:\Users\deepesh\Desktop\Final codes\lcd.c
+[v _str `*.ac  1 a 1 fsr2l ]
+"117
+[v _str `*.ac  1 a 1 fsr2l ]
+"492 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\lib\doprnt.c
+[v _sp `*.auc  1 a 1 fsr1l ]
+"47 C:\Users\deepesh\Desktop\Final codes\uart2.c
+[v _data `uc  1 a 1 fsr2l ]
+"7 C:\Users\deepesh\Desktop\Final codes\uart.c
+[v _buffer `*.ac  1 a 1 fsr2l ]
+"7 C:\Users\deepesh\Desktop\Final codes\spi.c
+[v _txbyte `uc  1 a 1 prodl ]
+"492 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\lib\doprnt.c
+[v _sprintf `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\lldiv.c
+[v ___lldiv `(ul  1 e 4 0 ]
+"3 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\lmul.c
+[v ___lmul `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\lwdiv.c
+[v ___lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\lwmod.c
+[v ___lwmod `(ui  1 e 2 0 ]
+"10 C:\Users\deepesh\Desktop\Final codes\adc.c
+[v _ADC_Init `(v  1 e 0 0 ]
+"78
+[v _Read_adc `(us  1 e 2 0 ]
+"44 C:\Users\deepesh\Desktop\Final codes\def.c
+[v _DelayMs `(v  1 e 0 0 ]
+"10 C:\Users\deepesh\Desktop\Final codes\I2Cforegnd.c
+[v _I2C_Init `(v  1 e 0 0 ]
+"89
+[v _Write_IO `(v  1 e 0 0 ]
+"32 C:\Users\deepesh\Desktop\Final codes\I2CISR.c
+[v _I2C_ISR `I(v  1 e 0 0 ]
+"8 C:\Users\deepesh\Desktop\Final codes\lcd.c
+[v _LCD_Init `(v  1 e 0 0 ]
+"35
+[v _Update_LCD `(v  1 e 0 0 ]
+"105
+[v _Clr_LCD `(v  1 e 0 0 ]
+"117
+[v _Print_Num_LCD `(v  1 e 0 0 ]
+"127
+[v _Print_Str_LCD `(v  1 e 0 0 ]
+"16 C:\Users\deepesh\Desktop\Final codes\main.c
+[v _main `(v  1 e 0 0 ]
+"7 C:\Users\deepesh\Desktop\Final codes\spi.c
+[v _SPI_Rx_Tx `(uc  1 e 1 0 ]
+"141 C:\Users\deepesh\Desktop\Final codes\temp.c
+[v _Scale `(l  1 e 4 0 ]
+"148
+[v _Temp_Calc `(v  1 e 0 0 ]
+"7 C:\Users\deepesh\Desktop\Final codes\uart.c
+[v _Print_UART `(v  1 e 0 0 ]
+"22
+[v _UART_Init `(v  1 e 0 0 ]
+"23 C:\Users\deepesh\Desktop\Final codes\uart2.c
+[v _UART2_Init `(v  1 e 0 0 ]
+"47
+[v _Uart2_Write `(v  1 e 0 0 ]
+"53
+[v _Uart2_Temp `(v  1 e 0 0 ]
+"357 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\include\pic18f65k90.h
+[v _LCDCONbits `S576  1 e 1 @3828 ]
+"384
+[v _LCDPSbits `S591  1 e 1 @3829 ]
+"387
+[v _LCDSE0 `Vuc  1 e 1 @3830 ]
+"411
+[v _LCDSE1 `Vuc  1 e 1 @3831 ]
+"435
+[v _LCDSE2 `Vuc  1 e 1 @3832 ]
+"459
+[v _LCDSE3 `Vuc  1 e 1 @3833 ]
+"483
+[v _LCDSE4 `Vuc  1 e 1 @3834 ]
+"493
+[v _LCDRL `Vuc  1 e 1 @3836 ]
+"523
+[v _LCDREF `Vuc  1 e 1 @3837 ]
+"585
+[v _SSP2CON2bits `S870  1 e 1 @3838 ]
+"588
+[v _SSP2CON1 `Vuc  1 e 1 @3839 ]
+"612
+[v _SSP2CON1bits `S591  1 e 1 @3839 ]
+"619
+[v _SSP2STAT `Vuc  1 e 1 @3840 ]
+"708
+[v _SSP2ADD `Vuc  1 e 1 @3841 ]
+"732
+[v _SSP2BUF `Vuc  1 e 1 @3842 ]
+"1162
+[v _TXREG2 `Vuc  1 e 1 @3868 ]
+"1170
+[v _SPBRG2 `Vuc  1 e 1 @3870 ]
+"1198
+[v _BAUDCON2bits `S210  1 e 1 @3872 ]
+"1240
+[v _TXSTA2bits `S1169  1 e 1 @3873 ]
+"1282
+[v _RCSTA2bits `S1169  1 e 1 @3874 ]
+"1285
+[v _ANCON2 `Vuc  1 e 1 @3875 ]
+"1305
+[v _ANCON1 `Vuc  1 e 1 @3876 ]
+"1325
+[v _ANCON0 `Vuc  1 e 1 @3877 ]
+"2243
+[v _BAUDCON1bits `S210  1 e 1 @3941 ]
+"2246
+[v _LCDDATA0 `Vuc  1 e 1 @3942 ]
+"2270
+[v _LCDDATA1 `Vuc  1 e 1 @3943 ]
+"2294
+[v _LCDDATA2 `Vuc  1 e 1 @3944 ]
+"2318
+[v _LCDDATA3 `Vuc  1 e 1 @3945 ]
+"2342
+[v _LCDDATA4 `Vuc  1 e 1 @3946 ]
+"2776
+[v _PORTAbits `S492  1 e 1 @3968 ]
+"2945
+[v _PORTCbits `S129  1 e 1 @3970 ]
+"3240
+[v _PORTFbits `S437  1 e 1 @3973 ]
+"3328
+[v _PORTGbits `S382  1 e 1 @3974 ]
+"3514
+[v _TRISAbits `S210  1 e 1 @3986 ]
+"3562
+[v _TRISCbits `S210  1 e 1 @3988 ]
+"3586
+[v _TRISDbits `S210  1 e 1 @3989 ]
+"3633
+[v _TRISFbits `S210  1 e 1 @3991 ]
+"3654
+[v _TRISGbits `S210  1 e 1 @3992 ]
+"3834
+[v _PIE2bits `S832  1 e 1 @4000 ]
+"3864
+[v _PIR2bits `S832  1 e 1 @4001 ]
+"4128
+[v _RCSTA1bits `S256  1 e 1 @4011 ]
+"4183
+[v _TXSTA1bits `S194  1 e 1 @4012 ]
+"4186
+[v _TXREG1 `Vuc  1 e 1 @4013 ]
+"4196
+[v _SPBRG1 `Vuc  1 e 1 @4015 ]
+"5035
+[v _T0CON `Vuc  1 e 1 @4053 ]
+"5059
+[v _T0CONbits `S1089  1 e 1 @4053 ]
+"5063
+[v _TMR0L `Vuc  1 e 1 @4054 ]
+"5067
+[v _TMR0H `Vuc  1 e 1 @4055 ]
+"5361
+[v _INTCONbits `S82  1 e 1 @4082 ]
+"354 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\lib\doprnt.c
+[v _dpowers `DC[5]ui  1 s 10 _dpowers ]
+"6 C:\Users\deepesh\Desktop\Final codes\def.c
+[v _mV `us  1 e 2 @105 ]
+"8
+[v _SCnt `us  1 e 2 @214 ]
+[v _ZCnt `us  1 e 2 @216 ]
+"13
+[v _idx `uc  1 e 1 @104 ]
+"14
+[v _I2C_state `uc  1 e 1 @109 ]
+"15
+[v _I2CRx `uc  1 e 1 @110 ]
+"16
+[v _I2Cerror `uc  1 e 1 @111 ]
+"17
+[v _I2Ctxlen `uc  1 e 1 @108 ]
+"18
+[v _I2Crxlen `uc  1 e 1 @107 ]
+"22
+[v _arr `[20]uc  1 e 20 @64 ]
+"10 C:\Users\deepesh\Desktop\Final codes\def.h
+[v _PrintStr `[64]c  1 e 64 @0 ]
+"22
+[v _AdcCount `us  1 e 2 @102 ]
+"24
+[v _Temperature `us  1 e 2 @100 ]
+"9 C:\Users\deepesh\Desktop\Final codes\Ds18B20.c
+[v _ScratchPad `[8]us  1 e 16 @84 ]
+"37 C:\Users\deepesh\Desktop\Final codes\lcd.c
+[v F5583 `[51]us  1 s 102 @112 ]
+"13 C:\Users\deepesh\Desktop\Final codes\temp.c
+[v _RType `DC[1024]us  1 e 2048 0 ]
+"16 C:\Users\deepesh\Desktop\Final codes\main.c
+[v _main `(v  1 e 0 0 ]
+{
+"20
+[v _state `c  1 a 1 0 ]
+"22
+[v _max `us  1 a 2 1 ]
+"153
+} 3
+"127 C:\Users\deepesh\Desktop\Final codes\lcd.c
+[v _Print_Str_LCD `(v  1 e 0 0 ]
+{
+"128
+[v _i `us  1 a 2 0 ]
+"127
+[v _str `*.ac  1 a 1 wreg ]
+[v _str `*.ac  1 a 1 fsr2l ]
+"134
+} 2
+"78 C:\Users\deepesh\Desktop\Final codes\adc.c
+[v _Read_adc `(us  1 e 2 0 ]
+{
+"79
+[v _data `us  1 a 2 0 ]
+"91
+} 2
+"10 C:\Users\deepesh\Desktop\Final codes\I2Cforegnd.c
+[v _I2C_Init `(v  1 e 0 0 ]
+{
+"21
+} 0
+"23 C:\Users\deepesh\Desktop\Final codes\uart2.c
+[v _UART2_Init `(v  1 e 0 0 ]
+{
+"26
+[v _x `ul  1 a 4 0 ]
+"23
+[v _baudrate `ul  1 p 4 0 ]
+"45
+} 4
+"148 C:\Users\deepesh\Desktop\Final codes\temp.c
+[v _Temp_Calc `(v  1 e 0 0 ]
+{
+"150
+[v _mask `us  1 a 2 0 ]
+"168
+} 2
+"53 C:\Users\deepesh\Desktop\Final codes\uart2.c
+[v _Uart2_Temp `(v  1 e 0 0 ]
+{
+[v _data `us  1 p 2 0 ]
+"56
+} 0
+"105 C:\Users\deepesh\Desktop\Final codes\lcd.c
+[v _Clr_LCD `(v  1 e 0 0 ]
+{
+"114
+} 0
+"89 C:\Users\deepesh\Desktop\Final codes\I2Cforegnd.c
+[v _Write_IO `(v  1 e 0 0 ]
+{
+[v _addr `uc  1 a 1 wreg ]
+[v _data `uc  1 p 1 0 ]
+"99
+} 0
+"117 C:\Users\deepesh\Desktop\Final codes\lcd.c
+[v _Print_Num_LCD `(v  1 e 0 0 ]
+{
+"118
+[v _i `us  1 a 2 0 ]
+"117
+[v _str `*.ac  1 a 1 wreg ]
+[v _str `*.ac  1 a 1 fsr2l ]
+"124
+} 2
+"8
+[v _LCD_Init `(v  1 e 0 0 ]
+{
+"32
+} 0
+"10 C:\Users\deepesh\Desktop\Final codes\adc.c
+[v _ADC_Init `(v  1 e 0 0 ]
+{
+"11
+[v _val `uc  1 a 1 0 ]
+[v _val1 `uc  1 a 1 1 ]
+"75
+} 2
+"22 C:\Users\deepesh\Desktop\Final codes\uart.c
+[v _UART_Init `(v  1 e 0 0 ]
+{
+"23
+[v _x `ul  1 a 4 0 ]
+"22
+[v _baudrate `ul  1 p 4 0 ]
+"42
+} 4
+"492 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\lib\doprnt.c
+[v _sprintf `(i  1 e 2 0 ]
+{
+"505
+[v _prec `c  1 a 1 0 ]
+"498
+[v _c `c  1 a 1 1 ]
+"493
+[v _ap `[1]*.Mv  1 a 2 2 ]
+"532
+[v __val `S1335  1 a 5 4 ]
+"492
+[v _sp `*.auc  1 a 1 wreg ]
+[v _f `*.dDCuc  1 p 2 0 ]
+[v _sp `*.auc  1 a 1 fsr1l ]
+"498
+[v _c `c  1 a 1 1 ]
+[v _c `c  1 a 1 1 ]
+[v _c `c  1 a 1 1 ]
+[v _c `c  1 a 1 fsr2l ]
+[v _c `c  1 a 1 1 ]
+[v _c `c  1 a 1 1 ]
+[v _c `c  1 a 1 1 ]
+[v _c `c  1 a 1 1 ]
+[v _c `c  1 a 1 1 ]
+[v _c `c  1 a 1 1 ]
+[v _c `c  1 a 1 1 ]
+[v _c `c  1 a 1 1 ]
+[v _c `c  1 a 1 1 ]
+[v _c `c  1 a 1 prodl ]
+[v _c `c  1 a 1 1 ]
+"1532
+} 9
+"141 C:\Users\deepesh\Desktop\Final codes\temp.c
+[v _Scale `(l  1 e 4 0 ]
+{
+[v _Value `l  1 p 4 0 ]
+[v _Izero `l  1 p 4 4 ]
+[v _Ispan `l  1 p 4 8 ]
+[v _Ozero `l  1 p 4 12 ]
+[v _Ospan `l  1 p 4 16 ]
+"145
+} 0
+"47 C:\Users\deepesh\Desktop\Final codes\uart2.c
+[v _Uart2_Write `(v  1 e 0 0 ]
+{
+[v _data `uc  1 a 1 wreg ]
+[v _data `uc  1 a 1 fsr2l ]
+"50
+} 0
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\lldiv.c
+[v ___lldiv `(ul  1 e 4 0 ]
+{
+"6
+[v _quotient `ul  1 a 4 0 ]
+"5
+[v _dividend `ul  1 p 4 0 ]
+[v _divisor `ul  1 p 4 4 ]
+"26
+} 4
+"35 C:\Users\deepesh\Desktop\Final codes\lcd.c
+[v _Update_LCD `(v  1 e 0 0 ]
+{
+"43
+[v _Seg_code `[51]us  1 a 102 0 ]
+"35
+[v _digit `us  1 p 2 0 ]
+[v _x `uc  1 p 1 2 ]
+[v _dp `uc  1 p 1 3 ]
+"102
+} 102
+"7 C:\Users\deepesh\Desktop\Final codes\uart.c
+[v _Print_UART `(v  1 e 0 0 ]
+{
+[v _buffer `*.ac  1 a 1 wreg ]
+[v _buffer `*.ac  1 a 1 fsr2l ]
+"19
+} 0
+"7 C:\Users\deepesh\Desktop\Final codes\spi.c
+[v _SPI_Rx_Tx `(uc  1 e 1 0 ]
+{
+[v _txbyte `uc  1 a 1 wreg ]
+[v _txbyte `uc  1 a 1 prodl ]
+"8
+[v _bitcount `uc  1 a 1 prodh ]
+[v _bitcount `uc  1 a 1 fsr0l ]
+"24
+} 0
+"44 C:\Users\deepesh\Desktop\Final codes\def.c
+[v _DelayMs `(v  1 e 0 0 ]
+{
+"45
+[v _j `us  1 a 2 0 ]
+"44
+[v _time `us  1 p 2 0 ]
+"52
+} 2
+"3 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\lmul.c
+[v ___lmul `(ul  1 e 4 0 ]
+{
+"4
+[v _product `ul  1 a 4 0 ]
+"3
+[v _multiplier `ul  1 p 4 0 ]
+[v _multiplicand `ul  1 p 4 4 ]
+"13
+} 4
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\lwmod.c
+[v ___lwmod `(ui  1 e 2 0 ]
+{
+[v _dividend `ui  1 p 2 0 ]
+[v _divisor `ui  1 p 2 2 ]
+"21
+} 0
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\lwdiv.c
+[v ___lwdiv `(ui  1 e 2 0 ]
+{
+[v _dividend `ui  1 p 2 0 ]
+[v _divisor `ui  1 p 2 2 ]
+"26
+} 0
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+{
+"6
+[v _quotient `l  1 a 4 0 ]
+"5
+[v _dividend `l  1 p 4 0 ]
+[v _divisor `l  1 p 4 4 ]
+"37
+} 4
+"32 C:\Users\deepesh\Desktop\Final codes\I2CISR.c
+[v _I2C_ISR `I(v  1 e 0 0 ]
+{
+"157
+} 0

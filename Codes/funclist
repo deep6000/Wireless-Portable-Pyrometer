@@ -1,0 +1,27 @@
+_Temp_Calc: CODE, 1898 0 410
+___lldiv: CODE, 3502 0 160
+_UART2_Init: CODE, 3342 0 160
+_Print_Num_LCD: CODE, 4414 0 70
+_sprintf: CODE, 2308 0 358
+_UART_Init: CODE, 3662 0 142
+___lmul: CODE, 4130 0 102
+_main: CODE, 186 0 826
+_Scale: CODE, 3168 0 174
+_I2C_Init: CODE, 4754 0 26
+_Uart2_Write: CODE, 4726 0 28
+_Read_adc: CODE, 4484 0 70
+___aldiv: CODE, 2666 0 262
+_I2C_ISR: CODE, 1012 0 472
+_ADC_Init: CODE, 2928 0 240
+_Clr_LCD: CODE, 4780 0 16
+___lwdiv: CODE, 3804 0 116
+_Write_IO: CODE, 4686 0 40
+_SPI_Rx_Tx: CODE, 4232 0 100
+_DelayMs: CODE, 4554 0 70
+_LCD_Init: CODE, 4624 0 62
+_Print_Str_LCD: CODE, 4332 0 82
+_Uart2_Temp: CODE, 4796 0 14
+_Update_LCD: CODE, 1484 0 414
+_Print_UART: CODE, 3920 0 106
+___lwmod: CODE, 4026 0 104
+Total: 4624
