@@ -1,0 +1,2 @@
+# Wireless-Porttable-Pyrometer
+• Designed a pyrometer with the ability to sense the temperature of molten metal in a range of 1000o C to 1600oC. • Resolved the problem of an inept display by integrating Wireless Display using Wi-Fi. • Improved accuracy by using 24-bit external analog to digital converter interfaced using SPI protocol. • Instigated the idea of data logging using EEPROM (I2C protocol) that was used for analyzing and validating it.
